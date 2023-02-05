@@ -1,0 +1,1 @@
+package com.devopworld.weatherapp.feature.mvvm.viewmodelclass WeatherViewModel {}
