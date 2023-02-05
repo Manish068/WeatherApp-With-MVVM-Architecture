@@ -1,1 +1,1 @@
-package com.devopworld.weatherapp.repositoryobject WeatherRepository {}
+package com.devopworld.weatherapp.repositoryimport com.devopworld.weatherapp.feature.mvvm.model.CurrentWeatherResponseimport com.devopworld.weatherapp.feature.mvvm.model.ForecastResponseimport com.devopworld.weatherapp.network.ApiServiceimport retrofit2.Responseimport javax.inject.Inject//Inject network service to provide api callinginterface WeatherRepository{    suspend fun getWeather(): Response<CurrentWeatherResponse>?    suspend fun getForecast(): Response<ForecastResponse>?}

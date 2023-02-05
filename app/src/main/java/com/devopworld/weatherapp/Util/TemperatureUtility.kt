@@ -1,1 +1,1 @@
-package com.devopworld.weatherapp.Utilclass TemperatureUtility {}
+package com.devopworld.weatherapp.Utilclass TemperatureUtility {    companion object{        fun convertKelvinToCelsius(value:Double):Double{            return value.minus(273.15).roundOff()        }    }}

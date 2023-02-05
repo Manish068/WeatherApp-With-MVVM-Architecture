@@ -1,1 +1,1 @@
-package com.devopworld.weatherapp.feature.mvvm.modeldata class WeatherInformation()
+package com.devopworld.weatherapp.feature.mvvm.modeldata class WeatherInformation(    val nextFourDayForecast: HashMap<Int, DayWiseTemp>,    val weatherResponse: CurrentWeatherResponse)data class DayWiseTemp(val day:String, val temp:Int)

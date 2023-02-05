@@ -1,1 +1,1 @@
-package com.devopworld.weatherapp.Util
+package com.devopworld.weatherapp.Utilimport java.math.RoundingModeimport java.text.DecimalFormatfun Double.roundOff():Double{    val df = DecimalFormat("#.#")    df.roundingMode = RoundingMode.DOWN    return df.format(this).toDouble()}

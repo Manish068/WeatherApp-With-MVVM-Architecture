@@ -1,1 +1,1 @@
-package com.devopworld.weatherapp.commonobject Constant {}
+package com.devopworld.weatherapp.commonobject Constant {    const val APP_ID = "9b8cb8c7f11c077f8c4e217974d9ee40"    const val BASE_URL = "https://api.openweathermap.org/data/2.5/"}

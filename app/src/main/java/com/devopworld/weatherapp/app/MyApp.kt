@@ -1,1 +1,1 @@
-package com.devopworld.weatherapp.appclass MyApp {}
+package com.devopworld.weatherapp.appimport android.app.Applicationimport dagger.hilt.android.HiltAndroidApp/*** @hiltAndroidApp generate Hilt's code, including base class that serves as the application-level dependency container* */@HiltAndroidAppclass MyApp: Application()

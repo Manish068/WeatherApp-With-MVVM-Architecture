@@ -1,1 +1,1 @@
-package com.devopworld.weatherapp.networkinterface ApiService {}
+package com.devopworld.weatherapp.networkimport com.devopworld.weatherapp.feature.mvvm.model.CurrentWeatherResponseimport com.devopworld.weatherapp.feature.mvvm.model.ForecastResponseimport retrofit2.Responseimport retrofit2.http.GETinterface ApiService {    //to get the current weather    @GET("weather")    suspend fun getWeather(): Response<CurrentWeatherResponse>    //to get the forecast of future days    @GET("forecast")    suspend fun getForecast(): Response<ForecastResponse>}
